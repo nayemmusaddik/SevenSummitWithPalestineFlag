@@ -1,14 +1,4 @@
-/**
-* Template Name: Folio
-* Template URL: https://bootstrapmade.com/folio-bootstrap-portfolio-template/
-* Updated: Mar 17 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   background: #ffffff;
   color: #898989;
@@ -62,12 +52,12 @@ p {
 }
 
 ::-moz-selection {
-  background: #b8a07e;
+  background: #e7c742;
   color: #fff;
 }
 
 ::selection {
-  background: #b8a07e;
+  background: #e7c742;
   color: #fff;
 }
 
@@ -85,7 +75,7 @@ p {
 
 .btn:hover,
 .btn:focus {
-  color: #fff;
+  color: #999999;
 }
 
 .padDiv {
@@ -137,7 +127,7 @@ p {
 }
 
 .hvr-shutter-in-horizontal:hover {
-  background: #b8a07e;
+  background: #e7c742;
 }
 
 .mb-30 {
@@ -158,7 +148,7 @@ p {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #b8a07e;
+  background: #e7c742;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -270,7 +260,7 @@ p {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #b8a07e;
+  color: #e7c742;
 }
 
 .navbar .dropdown ul {
@@ -304,7 +294,7 @@ p {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #b8a07e;
+  color: #e7c742;
 }
 
 .navbar .dropdown:hover>ul {
@@ -403,7 +393,7 @@ p {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #b8a07e;
+  color: #e7c742;
 }
 
 .navbar-mobile .getstarted,
@@ -438,7 +428,7 @@ p {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #b8a07e;
+  color: #e7c742;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -468,7 +458,7 @@ p {
   font-weight: 700;
   margin-bottom: 10px;
   text-transform: uppercase;
-  color: #fff;
+  color: #e7c742;
 }
 
 .hero-content p {
@@ -477,7 +467,7 @@ p {
   margin-top: 0;
   margin-bottom: 30px;
   text-transform: capitalize;
-  color: #fff;
+  color: #fe4d43;
   font-weight: 500;
 }
 
@@ -564,7 +554,7 @@ p {
 
 #about .div-img-bg {
   padding-bottom: 30px;
-  border: 20px solid #b8a07e;
+  border: 20px solid #e7c742;
 }
 
 #about .div-img-bg .about-img img {
@@ -617,7 +607,7 @@ p {
 
 .services-block i {
   font-size: 44px;
-  color: #b8a07e;
+  color: #e7c742;
   line-height: 44px;
 }
 
@@ -631,11 +621,11 @@ p {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #b8a07e;
+  border: 1px solid #e7c742;
 }
 
 .services-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #b8a07e;
+  background-color: #e7c742;
 }
 
 /*--------------------------------------------------------------
@@ -670,7 +660,7 @@ p {
 
 #portfolio #portfolio-flters li:hover,
 #portfolio #portfolio-flters li.filter-active {
-  color: #b8a07e;
+  color: #e7c742;
 }
 
 #portfolio #portfolio-flters li:last-child {
@@ -713,7 +703,7 @@ p {
   right: 40px;
   font-size: 24px;
   top: calc(50% - 18px);
-  color: #b8a07e;
+  color: #e7c742;
 }
 
 #portfolio .portfolio-item .portfolio-info .preview-link:hover,
@@ -751,11 +741,11 @@ p {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #b8a07e;
+  border: 1px solid #e7c742;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #b8a07e;
+  background-color: #e7c742;
 }
 
 .portfolio-details .portfolio-info {
@@ -842,7 +832,7 @@ p {
 }
 
 .journal-block .journal-info .journal-txt h4 a:hover {
-  color: #b8a07e;
+  color: #e7c742;
   transition: all 0.5s ease-in-out 0s;
 }
 
@@ -981,7 +971,7 @@ p {
 }
 
 .journal-txt h4 a:hover {
-  color: #b8a07e;
+  color: #e7c742;
   transition: all 0.5s ease-in-out 0s;
 }
 
@@ -1065,7 +1055,7 @@ blockquote {
   background-color: #f2f2f2;
   margin: 30px 0;
   border: none;
-  border-left: 4px solid #b8a07e;
+  border-left: 4px solid #e7c742;
 }
 
 /*--------------------------------------------------------------
@@ -1104,7 +1094,7 @@ blockquote {
 }
 
 #footer .socials-media ul li a:hover {
-  color: #b8a07e;
+  color: #e7c742;
   transition: all 0.5s ease-in-out 0s;
 }
 
