@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Seven Summit with Palestine Flag</title>
+  <title>Home | Seven Summit with Palestine Flag</title>
   <meta content="" name="description">
   <meta content="Seven Summit with Palestine Flag" name="keywords">
 
@@ -43,7 +43,7 @@
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link  scrollto" href="#journal">Blog</a></li>
+          <li><a class="nav-link  scrollto" href="#journal">News</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -181,7 +181,7 @@
 
               </div>
             </div>
-            <a href="#" type="button" class="btn btn-defeault btn-send">See More <i class="bi bi-arrow-down"></i></a></li></a>
+            <a href="blog-grid.html" type="button" class="btn btn-defeault btn-send">See More <i class="bi bi-arrow-down"></i></a></li></a>
           </div>
         </div>
       </div>
@@ -202,7 +202,7 @@
                   <!-- <li><span>23 Main, Street</span></li>
                   <li><span>New York, United States</span></li>
                   <li><span>+88 01912704287</span></li> -->
-                  <li><span>tamimmuntasir@gmail.com</span></li>
+                  <li><a href="mailto:tamimmuntasir@gmail.com"><span>tamimmuntasir@gmail.com</span></a></li>
                 </ul>
 
               </div>
@@ -300,10 +300,10 @@
         const message = formData.get('message');
 
         // Prepare email body
-        const emailBody = `Name: ${name}\nSubject: ${subject}\nEmail: ${email}\nMessage: ${message}`;
+        const emailBody = `Name: ${name}\nMessage: ${message}`;
 
         // Send email using mailto link
-        window.location.href = `mailto:test@test.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(emailBody)}`;
+        window.location.href = `mailto:tamimmuntasir@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(emailBody)}`;
     });
 </script>
 
